@@ -1,8 +1,7 @@
-count_down = 0
-count = 10
+magic_exit_number = 7
+count = 0
 
-while count > 10 && count != count_down do
-  break if count == count_down
-  puts "Happy New Year!"
-  count = count - 1
+while count < 10 && count != magic_exit_number do
+  puts "I am the #{count}, I love to count!" # Work
+  count = count + 1
 end
