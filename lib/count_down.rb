@@ -1,7 +1,7 @@
-magic_exit_number = 7
-count = 0
+count_down = 0
+count = 10
 
-while count < 10 && count != magic_exit_number do
+while count >= 1
   puts "I am the #{count}, I love to count!" # Work
-  count = count + 1
+  count = count - 1
 end
