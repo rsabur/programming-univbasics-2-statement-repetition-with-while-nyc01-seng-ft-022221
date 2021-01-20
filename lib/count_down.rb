@@ -7,4 +7,3 @@ while count >= 1 do
     while count == count_down do
       puts "Happy New Year!"
     end
-    
